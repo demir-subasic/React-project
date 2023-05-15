@@ -1,0 +1,23 @@
+#pretraga {
+    background-color: transparent;
+    border: none;
+    margin-top: 20px;
+    border-bottom: 2px solid rgba(159, 159, 197, 0.842);
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+#pretraga::placeholder {
+    font-size: 19px;
+    color: white;
+}
+
+#pretraga:focus {
+    outline: none;
+    font-size: 18px;
+}
+
+#pretraga:focus::placeholder{
+    color: transparent;
+}

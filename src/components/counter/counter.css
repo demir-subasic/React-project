@@ -1,0 +1,12 @@
+p{
+    font-size: 30px;
+    color: rgb(38, 44, 44);
+  }
+  
+  .btn {
+    margin-left: 10px;
+    padding: 10px 13px;
+    border: none;
+    border-radius: 25px;
+    font-size: 20px;
+  }

@@ -1,0 +1,20 @@
+.users-block {
+    text-align: center;
+    width: 200px;
+    border: 1px solid rgba(159, 159, 197, 0.842);
+    border-radius: 30px;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: rgb(190, 186, 186);
+    margin: 10px 0px;
+}
+.imena {
+    font-size: 22px;
+}
+.prezimena {
+    margin-left: 10px;
+    font-size: 22px;
+}

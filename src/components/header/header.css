@@ -1,0 +1,36 @@
+h1 {
+    font-size: 40px;
+    color: white;
+}
+header{
+    width: 100%;
+    height: 18vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #cac2b593;
+    color: white;
+    color: #484033;
+    border-bottom: 1px solid crimson;
+    
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    cursor: pointer;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+button {
+    padding: 7px 30px;
+    border: none;
+    border-radius: 15%;
+    cursor: pointer;
+    background-color: #776A55;
+    color: white;
+    font-size: 20px;
+}

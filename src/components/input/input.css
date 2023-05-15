@@ -1,0 +1,15 @@
+
+.input-propsa{
+    width: 200px;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 30px;
+}
+
+.input-propsa::placeholder{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}

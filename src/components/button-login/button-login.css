@@ -1,0 +1,10 @@
+.login-dugme {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 255, 0.719);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}

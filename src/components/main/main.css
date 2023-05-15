@@ -1,0 +1,19 @@
+.main {
+    background-image: url("https://img.freepik.com/free-photo/green-sofa-white-living-room-with-free-space_43614-834.jpg?w=200");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.aside {
+    padding-left: 500px;
+    padding-right: 100px;
+}
+p{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
