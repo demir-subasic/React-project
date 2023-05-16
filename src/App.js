@@ -7,7 +7,8 @@ import './App.css';
 // import Stranica from './stranica/stranica';
 // import Text from './components/input.text/text';
 // import Counter from './components/counter/counter';
-import TodoList from './components/todo-list/todo';
+// import TodoList from './components/todo-list/todo';
+// import ColorPicker from './color-picker/color-picker';
 
 
 function App() {
@@ -15,8 +16,9 @@ function App() {
 
   return (
     <div className = "App">
+     
       
-    <TodoList />
+
 
     </div> 
     )
