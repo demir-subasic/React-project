@@ -5,8 +5,9 @@ import './App.css';
 // import Footer from './components/footer/footer';
 // import Login from './screens/login/login';
 // import Stranica from './stranica/stranica';
-import Text from './components/input.text/text';
-import Counter from './components/counter/counter';
+// import Text from './components/input.text/text';
+// import Counter from './components/counter/counter';
+import TodoList from './components/todo-list/todo';
 
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
   return (
     <div className = "App">
       
-    <Counter />
+    <TodoList />
 
     </div> 
     )
