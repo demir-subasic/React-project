@@ -1,27 +1,27 @@
 import React, { useState } from 'react';
-import './App.css';
-// import Header from './components/header/header';
-// import Main from './components/main/Main';
-// import Footer from './components/footer/footer';
-// import Login from './screens/login/login';
-// import Stranica from './stranica/stranica';
-// import Text from './components/input.text/text';
-// import Counter from './components/counter/counter';
-// import TodoList from './components/todo-list/todo';
-// import ColorPicker from './color-picker/color-picker';
-import Login from './components/login/login';
+import Home from './pages/home';
+import About from './pages/about';
+import {Link, Route, Routes } from 'react-router-dom';
+import Info from './pages/info';
+import More from './pages/more';
+import Page from './pages/page';
 
 
 function App() {
 
 
   return (
-    <div className = "App">
-     
-      
+    <>
 
+    <Page />
 
-    </div> 
+    <Routes>
+      <Route path='/home' element={<Home />}/>
+      <Route path='/about' element={<About />}/>
+      <Route path = '/info' element = {<Info />}/>
+      <Route path='/more' element = {<More />}/>
+    </Routes>
+    </>
     )
 }
 export default App;
