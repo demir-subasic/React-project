@@ -1,0 +1,8 @@
+.product-page{
+    margin: 20px 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 30px;
+    text-align: center;
+    row-gap: 30px;
+}
