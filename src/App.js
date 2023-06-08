@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css'
-import ParentBUTTON from './parent-child/parentBUTTON';
+import MUI from './MUI/mui-components';
+
 
 function App() {
   return(
     <div>
-     <ParentBUTTON />
+    <MUI />
     </div>
   )
 }
