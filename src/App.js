@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css'
-import MUI from './MUI/mui-components';
+import ReactQuery from './react-query/query';
 
 
 function App() {
   return(
     <div>
-    <MUI />
+    <ReactQuery />
     </div>
   )
 }
