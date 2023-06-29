@@ -1,13 +1,14 @@
 import React from 'react';
 import './App.css'
-import ReactQuery from './react-query/query';
+import { SearchButton, Wrapper } from './components/styled-components/index.styled';
 
 
 function App() {
   return(
-    <div>
-    <ReactQuery />
-    </div>
+    <Wrapper>
+      BBB
+      <SearchButton>Click</SearchButton>
+    </Wrapper>
   )
 }
 export default App;
