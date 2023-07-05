@@ -1,13 +1,14 @@
 import React from 'react';
 import './App.css'
 import TodoList from './todo';
+import Quiz from './quiz/quiz';
 
 
 
 function App() {
   return(
     <>
-    <TodoList />
+    <Quiz />
     </>
   )
 }
