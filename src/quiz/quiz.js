@@ -3,6 +3,7 @@ import {QuizContainer, Question, AnswerButton, ScoreSection, Result } from './qu
 
 
 
+
 const Quiz = () => {
   const questions = [
     {
@@ -48,7 +49,7 @@ const Quiz = () => {
       {showScore ? (
         <ScoreSection>
           <Result>
-            Pogodio si {score} od {questions.length} tacnih odgovora.
+            {score} od {questions.length} tacnih odgovora
           </Result>
         </ScoreSection>
       ) : (
