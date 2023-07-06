@@ -1,14 +1,13 @@
 import React from 'react';
 import './App.css'
-import TodoList from './todo';
-import Quiz from './quiz/quiz';
+import Carousel from './carousel/carousel';
 
 
 
 function App() {
   return(
     <>
-    <Quiz />
+    <Carousel/>
     </>
   )
 }
